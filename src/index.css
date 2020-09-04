@@ -1,13 +1,415 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+.left-side-menu {
+  width: 240px;
+  background: linear-gradient(180deg, #8264C6 0%, #5D80E2 100%);
+  bottom: 0;
+  padding: 0px 0;
+  position: fixed;
+  transition: all .2s ease-out;
+  top: 70px;
+  box-shadow: 0 0 35px 0 rgba(154,161,171,.15);
+  border-top: 1px solid rgba(204, 204, 204, 0.48);
+}
+.content-page {
+  margin-left: 240px;
+  overflow: hidden;
+  padding: 0 10px 5px 25px;
+  min-height: 80vh;
+  margin-top: 73px;
+  transition: all .2s ease-out;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+#overview-10 {
+  position: relative;
+  height: auto;
+background: #F7F9FC;
+}
+
+
+/* Overview start */
+
+.recent-title{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+color: #000000;
+
+opacity: 0.6;
+}
+
+.recent-text{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+
+color: #7E7E7E;
+
+opacity: 0.6;
+}
+
+
+.btn-primary{
+  background: #00C27A !important;
+border-radius: 3px !important;
+border-color:#00C27A !important;
+width: 75px;
+height: 25px;
+margin-top: 8px;
+}
+
+
+.recent-10{
+ 
+  position: absolute;
+  left:384px;
+}
+  
+.btn-primary h6{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 13px;
+
+color: #FFFFFF;
+
+mix-blend-mode: normal;
+
+}
+ 
+  
+.card1{
+  background: #FFFFFF;
+box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2)!important;
+border-radius: 10px !important;
+
+}
+
+.recent-9 h3{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+
+
+
+color: #4F4F4F;
+mix-blend-mode: normal;
+}
+
+
+
+.recent-hour h6{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height:15px;
+
+
+
+color: #4F4F4F;
+}
+
+
+
+
+.card{
+  background: #FFFFFF;
+border-radius: 10px;
+left:-10px;
+height: 134px;
+border: 2px solid rgba(0, 0, 0, 0.125)!important;
+align-items: center;
+
+}
+
+.card2{
+  background: #FFFFFF;
+  border-radius: 10px;
+  height:67px;
+  
+}
+.card3{
+  background: #FFFFFF;
+  border-radius: 10px;
+  height:67px;
+ 
+}
+.card4{
+  background: #FFFFFF;
+  border-radius: 10px;
+  height:320px;
+  
+}
+
+
+
+.social-10 img{
+  height: 65px;
+  width: 70px;
+}
+
+.social-11 h6{
+  font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+
+
+text-align: center;
+
+color: #000000;
+
+opacity: 0.6;
+
+}
+.social-11 p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 10px;
+  text-align: center;
+  
+  color: #8760D0;
+  margin-bottom: 0;
+  
+  opacity: 0.6;
+}
+
+.social-11 a{
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+ 
+  
+  text-align: center;
+  
+  color: #528AF7;
+  
+  opacity: 0.6;
+}
+
+
+.Doug-10{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.recent-card{
+  background: #FFFFFF;
+border-radius: 10px;
+}
+
+
+
+/* OVERVIEW ENDS */
+
+
+
+/* ANALYTICS START */
+.profanalytic h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+
+.anacard{
+  background: #FFFFFF;
+  border-radius: 10px;
+ 
+}
+
+.ana-10 h5{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.btn.btn-analy{
+  background: #00C27A;
+  border-radius: 5px;
+
+
+ 
+}
+
+.btn.btn-analy h6{
+font-family: Roboto;
+font-style: normal;
+
+font-size: 16px;
+line-height: 15px;
+color: #F2F2F2;
+}
+
+
+.analytic-11{
+  margin-top:71px;
+
+}
+
+
+.btn.btn-analytic-13{
+  background: linear-gradient(90.17deg, #5D80E2 0.17%, #73B6E5 99.89%);
+border-radius: 5px;
+}
+
+
+
+.btn.btn-analytic-13 h6{
+font-family: Roboto;
+font-style: normal;
+
+font-size: 14px;
+line-height: 16px;
+color: #F2F2F2;
+mix-blend-mode: normal;
+}
+
+.analytic-14{
+background: #FFFFFF;
+box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+border-radius: 10px;
+}
+
+.analytic-16{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+
+
+color: #000000;
+}
+
+.analytic-17{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+color: #000000;
+}
+
+.head_font {
+  font-size: 11px;
+}
+
+
+.analytics-17{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  
+  color: #000000;
+}
+
+
+
+/* Analytics ENDS */
+
+
+
+/* Profile Setting start */
+
+
+
+.setting-10 h3{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 33px;
+color: #000000;
+}
+
+.setting-11{
+  background: #FFFFFF;
+box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+border-radius: 10px;
+}
+
+.account-10 h3{
+  font-family: Roboto;
+font-style: normal;
+font-size: 18px;
+line-height: 40px;
+color: #5D80E2;
+
+}
+.account-11 h3{
+  font-family: Roboto;
+font-style: normal;
+font-size: 18px;
+line-height: 40px;
+
+
+}
+
+
+.setting-12{
+  background: #FFFFFF;
+  border-radius: 10px 0px 0px 0px;
+
+}
+
+.setting-12 h3{
+  color: #5D80E2;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 16px;
+line-height: 21px;
+}
+
+
+.setting-13 {
+  background: #E3ECF7;
+  border-radius: 10px 0px 0px 0px;
+  
+}
+
+.setting-13 h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.setting-14{
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.12);
+  border-radius: 0px 10px 10px 10px;
+  
+}
+
+.btn.btn-profile-10{
+  background: linear-gradient(90.17deg, #5D80E2 0.17%, #73B6E5 99.89%);
+  border-radius: 5px;
+  width: 161px;
 }
