@@ -5,10 +5,10 @@ function Profile() {
     return (
         <>
         <div className='left-side-menu'></div>
-        <div className='content-page'  id='overview-10' >
+        <div className='content-page'   >
        
 
-        <div className="container mt-5 ">
+        <div className="container mt-5 " id='overview-10'>
             <div className='setting-10'>
                 <h3>Profile Setting</h3>
             </div>

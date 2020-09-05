@@ -6,16 +6,16 @@ function Analytic() {
     return (
         <>
            <div className='left-side-menu'></div>
-        <div className='content-page'  id='overview-10' >
+        <div className='content-page'   >
        
 
-        <div className="container ">
+        <div className="container "id='overview-10'>
               <div className='profanalytic'>
                   <h3>Profile Analytics</h3>
               </div>   
               <div className='col-12'>
               <div className="row ">
-                  <div className='col-md-5 anacard ml-2 '>
+                  <div className='col-md-5 anacard  ml-2'>
                    <div className='row'>
                        
                        <div className='col-md-2'>
@@ -47,7 +47,7 @@ function Analytic() {
                   
                   </div> 
                   </div>  
-                  </div>       
+                       
 
             
 
@@ -183,7 +183,7 @@ function Analytic() {
               </div>
                 </div>
                 </div>
-
+                </div> 
            
                 </div>
  
