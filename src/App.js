@@ -4,6 +4,7 @@ import Overview from './Overview';
 import Analytic from './Analytic';
 import Listing from './Listing';
 import './App.css';
+import AdditionalPromotional from './AdditionalPromotional';
 
 
 
@@ -15,6 +16,7 @@ function App() {
   <Profile/>
   <Analytic/>
   <Listing/>
+  <AdditionalPromotional/>
    </>
   );
 }

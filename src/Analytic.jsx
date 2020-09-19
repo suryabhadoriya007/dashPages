@@ -9,7 +9,7 @@ function Analytic() {
         <div className='content-page'   >
        
 
-        <div className="container "id='overview-10'>
+        <div className="container " id='overview-10'>
               <div className='profanalytic'>
                   <h3>Profile Analytics</h3>
               </div>   
