@@ -25,7 +25,7 @@ function Listing() {
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                        <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -42,11 +42,11 @@ function Listing() {
                   <hr className="linecard"></hr>
                   <div className="row card-12">
                     <div className="col-md-3 textchange-10">
-                      <img
+                      <img 
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                        <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -63,11 +63,11 @@ function Listing() {
                   <hr className="linecard"></hr>
                   <div className="row card-12">
                     <div className="col-md-3 textchange-10">
-                      <img
+                      <img 
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                        <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -84,11 +84,11 @@ function Listing() {
                   <hr className="linecard"></hr>
                   <div className="row card-12">
                     <div className="col-md-3 textchange-10">
-                      <img
+                      <img 
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                        <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -105,11 +105,11 @@ function Listing() {
                   <hr className="linecard"></hr>
                   <div className="row card-12">
                     <div className="col-md-3 textchange-10">
-                      <img
+                      <img 
                         src={require("../src/images/Rectangle 326.png")}
                         alt=""
                       />
-                      El Dorado
+                        <span className="el_dorado">El Dorado</span>
                     </div>
                     <div className="col-md-3 textchange-10 res-list">
                       <p>801 N Orange AVE rando, FL 32801</p>
@@ -123,6 +123,31 @@ function Listing() {
                       </div>
                     </div>
                   </div>
+                  <hr className="linecard"></hr>
+                  <div className="row card-12">
+                    <div className="col-md-3 textchange-10">
+                      <img 
+                        src={require("../src/images/Rectangle 326.png")}
+                        alt=""
+                      />
+                        <span className="el_dorado">El Dorado</span>
+                    </div>
+                    <div className="col-md-3 textchange-10 res-list">
+                      <p>801 N Orange AVE rando, FL 32801</p>
+                    </div>
+                    <div className="col-md-3 res-list textchange-10">
+                      407-650-1811
+                    </div>
+                    <div className="col-md-3">
+                      <div className=" col-md-10 textchange-10 listingsbt-10 ">
+                        <div className="rest-list">View Listing </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+
+
                 </div>
               </div>
             </div>
