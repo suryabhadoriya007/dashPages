@@ -136,7 +136,7 @@ color: #4F4F4F;
   background: #FFFFFF;
 border-radius: 10px;
 
-height: 134px;
+height: 130px;
 border: 2px solid rgba(0, 0, 0, 0.125)!important;
 }
 
@@ -164,15 +164,18 @@ border: 2px solid rgba(0, 0, 0, 0.125)!important;
 .social-10 img{
   height: 65px;
   width: 70px;
-  display: flex;
-  text-align: center! important;
+ position: absolute;
+ left: 80px;
+    top: 10px;
+  text-align: center;
 }
 
 .social-11 h6{
+ 
   font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 14px;
 line-height: 21px;
 
 
@@ -184,6 +187,7 @@ opacity: 0.6;
 
 }
 .social-11 p{
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -196,9 +200,13 @@ opacity: 0.6;
   
   opacity: 0.6;
 }
+.card_jump{
+  position: absolute;
+  top: 65px;left: 13px;
+}
 
 .social-11 a{
-
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;

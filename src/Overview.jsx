@@ -215,45 +215,138 @@ function Overview() {
              
             </div> */}
            
-          <div className='col-md-6 recent_noti'>
+          <div className='col-md-6  recent_noti'>
           <div className="recent-9">
                 <h3>Social Overview</h3>
               </div>
           <div class="row">
-  <div class="col-sm-6 ">
-
-    <div class="card social-10">
-      
-     
-                    <img src={insta} />
-                  
+  <div class=" col-md-6 ">
+    <div class="card social-10 ">
     
-    </div>
+                    <img src={fb} />
+     
+    
+    
+    <div className="row card_jump">
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Likes
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                  </div>
+                  </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-       
-      </div>
+  <div class=" col-md-6">
+     <div class="card social-10 ">
+    
+                    <img src={fb} />
+                    <div className="row card_jump">
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Likes
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                  </div>
+     
+     
     </div>
   </div>
 </div>
 <div className='card_gap1'>
 
 <div class="row">
-  <div class="col-sm-6">
-
-    <div class="card">
-      <div class="card-body">
-       
-      </div>
+<div class=" col-md-6 ">
+    <div class="card social-10 ">
+    
+                    <img src={fb} />
+                    <div className="row card_jump">
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Likes
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                  </div>
+     
+    
     </div>
   </div>
-  <div class="col-sm-6">
-    <div class="card">
-      <div class="card-body">
-       
-      </div>
+  <div class=" col-md-6">
+    <div class="card social-10 ">
+    
+                    <img src={fb} />
+                    <div className="row card_jump">
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Likes
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                    <div className="col-sm-4 social-11">
+                      <h6>310,125 </h6>
+                      <p>+10,03% </p>
+                      <a href="#" class="link-social" role="button">
+                        Chek ins
+                      </a>
+                    </div>
+                  </div>
+     
+    
     </div>
   </div>
 </div>
