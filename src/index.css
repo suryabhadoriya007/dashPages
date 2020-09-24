@@ -64,7 +64,12 @@ width: 75px;
 height: 25px;
 margin-top: 8px;
 }
-
+.card_gap1{
+margin-top: 25px;
+}
+.hawaipatti{
+  margin-top: 10px;
+}
 
 .recent-10{
  
@@ -84,6 +89,13 @@ color: #FFFFFF;
 mix-blend-mode: normal;
 
 }
+
+.blank1{
+  background: #FFFFFF;
+border-radius: 10px;
+width: 292.83px;
+height: 143.83px;
+} 
  
   
 .card1{
@@ -114,9 +126,6 @@ font-style: normal;
 font-weight: normal;
 font-size: 11px;
 line-height:15px;
-
-
-
 color: #4F4F4F;
 }
 
@@ -126,11 +135,9 @@ color: #4F4F4F;
 .card{
   background: #FFFFFF;
 border-radius: 10px;
-left:-10px;
+
 height: 134px;
 border: 2px solid rgba(0, 0, 0, 0.125)!important;
-align-items: center;
-
 }
 
 .card2{
@@ -157,6 +164,8 @@ align-items: center;
 .social-10 img{
   height: 65px;
   width: 70px;
+  display: flex;
+  text-align: center! important;
 }
 
 .social-11 h6{
@@ -215,7 +224,42 @@ opacity: 0.6;
   background: #FFFFFF;
 border-radius: 10px;
 }
-
+.recent_noti {
+  margin-top: 40px;
+}
+.special_tit {
+  margin-top: 20px;
+}
+.recent-hour {
+  margin-top: 12px;
+}
+.icon_margin {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.right_icons {
+  padding: 30px 0px;
+}
+.recent_noti {
+  margin-top: 40px;
+}
+.special_tit {
+  margin-top: 20px;
+}
+.recent-hour {
+  margin-top: 12px;
+}
+.icon_margin {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.right_icons {
+  padding: 30px 0px;
+}
+.chart_10{
+  margin-top: 40px;
+ 
+}
 
 
 /* OVERVIEW ENDS */

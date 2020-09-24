@@ -81,9 +81,9 @@ function Profile() {
                         type="password"
                         class="form-control"
                         id="inputPassword3"
-                        placeholder="Admin"
+                        placeholder="Admin" 
                       />
-                       <ArrowDropDownIcon />
+                      
                     </div>
                   </div>
                   <div className="save_gap">
