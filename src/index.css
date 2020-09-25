@@ -68,7 +68,7 @@ margin-top: 8px;
 margin-top: 25px;
 }
 .hawaipatti{
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .recent-10{
@@ -140,24 +140,7 @@ height: 130px;
 border: 2px solid rgba(0, 0, 0, 0.125)!important;
 }
 
-.card2{
-  background: #FFFFFF;
-  border-radius: 10px;
-  height:67px;
-  
-}
-.card3{
-  background: #FFFFFF;
-  border-radius: 10px;
-  height:67px;
- 
-}
-.card4{
-  background: #FFFFFF;
-  border-radius: 10px;
-  height:320px;
-  
-}
+
 
 
 
@@ -166,7 +149,7 @@ border: 2px solid rgba(0, 0, 0, 0.125)!important;
   width: 70px;
  position: absolute;
  left: 80px;
-    top: 10px;
+    top: 0px;
   text-align: center;
 }
 
@@ -229,8 +212,9 @@ opacity: 0.6;
   
 }
 .recent-card{
-  background: #FFFFFF;
-border-radius: 10px;
+background: #FFFFFF;
+border-radius: 5px;
+
 }
 .recent_noti {
   margin-top: 40px;
@@ -260,6 +244,9 @@ border-radius: 10px;
 .icon_margin {
   margin-left: 10px;
   margin-top: 10px;
+}
+.view_10 {
+font-size: 10px;
 }
 .right_icons {
   padding: 30px 0px;

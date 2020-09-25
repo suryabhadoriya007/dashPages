@@ -7,6 +7,7 @@ import ChartsPage from "./Dogh";
 import BarChart from "./Bar";
 import add from "../src/images/tw.png";
 import fb1 from "../src/images/fb1.png";
+import ArrowRightIcon from '@material-ui/icons/ArrowRight';
 
 function Overview() {
   return (
@@ -355,8 +356,8 @@ function Overview() {
           </div>
           </div>
 
-          <div class="row hawaipatti ">
-            <div class="col-md-9 ">
+          {/* <div class="row hawaipatti ">
+            <div class="col-md-8 ">
               <div class="row recent-card">
                 <div className="col-sm-2 icon_margin  ">
                   <div className="row ">
@@ -431,7 +432,7 @@ function Overview() {
               </div>
             </div>
 
-            <div class="col-md-3 ">
+            <div class="col-md-4 ">
               <div className="row recent-card">
                 <div className="col-md-12">
                   <div className="row right_icons">
@@ -455,7 +456,115 @@ function Overview() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
+
+
+             <div className="row hawaipatti ">
+               <div className='col-md-9 '>
+                 <div className='recent-card'>
+                 <div class="row">
+                <div className="col-sm-2 icon_margin  ">
+                  <div className="row ">
+                    <img src={add} alt="add" />
+
+                    <div className="icon_margin ">
+                      <div className="row  ">
+                        <span>sdsds</span>
+                      </div>
+                      <div className="row">
+                        <span>sdsds</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-2 icon_margin  ">
+                  <div className="row ">
+                    <img src={add} alt="add" />
+
+                    <div className="icon_margin ">
+                      <div className="row  ">
+                        <span>sdsds</span>
+                      </div>
+                      <div className="row">
+                        <span>sdsds</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-2 icon_margin  ">
+                  <div className="row ">
+                    <img src={add} alt="add" />
+
+                    <div className="icon_margin ">
+                      <div className="row  ">
+                        <span>sdsds</span>
+                      </div>
+                      <div className="row">
+                        <span>sdsds</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-2 icon_margin  ">
+                  <div className="row ">
+                    <img src={add} alt="add" />
+
+                    <div className="icon_margin ">
+                      <div className="row  ">
+                        <span>sdsds</span>
+                      </div>
+                      <div className="row">
+                        <span>sdsds</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-sm-2 icon_margin  ">
+                  <div className="row ">
+                    <img src={add} alt="add" />
+
+                    <div className="icon_margin ">
+                      <div className="row  ">
+                        <span>sdsds</span>
+                      </div>
+                      <div className="row">
+                        <span>sdsds</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                </div>
+               </div>
+               <div className='col-md-3'>
+               <div className='recent-card'>
+               <div className="row right_icons">
+                    <div className="col-md-1">
+                      <img src={fb1} />
+                    </div>
+                    <div className="col-md-1">
+                      <img src={fb1} />
+                    </div>
+                    <div className="col-md-1">
+                      <img src={fb1} />
+                    </div>
+                    <div className="col-md-1">
+                      <img src={fb1} />
+                    </div>
+                    <div className="col-md-2">
+                      <img src={fb1} />
+                    </div>
+                    <div className="col-md-4 view_10">view all<ArrowRightIcon/></div>
+                  </div>
+                </div>
+                 
+                 </div>
+             </div>
+
+
+
+
+
 
           <div class="row chart_10">
             <div class="col-md-4">
