@@ -1,8 +1,11 @@
 import React from 'react';
-import Ournews from './Ournews';
+import Profile from './Profile';
+import Overview from './Overview';
+import Analytic from './Analytic';
+import Listing from './Listing';
+import Promopost from './Promopost';
 import './App.css';
-import OurTeam from './OurTeam';
-
+import AdditionalPromotional from './AdditionalPromotional';
 
 
 
@@ -10,9 +13,12 @@ import OurTeam from './OurTeam';
 function App() {
   return (
    <>
- 
- <OurTeam/>
-
+  <Overview/>
+  <Profile/>
+  <Analytic/>
+  <Listing/>
+  <AdditionalPromotional/>
+  <Promopost/>
    </>
   );
 }
