@@ -1,10 +1,65 @@
 import React from 'react'
+import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
 
 function Ournews() {
     return (
         <>
         <div className='container'>
-           
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+          <a class="navbar-brand" href="#">
+            <img src={require("../src/images/LOGO 4.png")} alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav main_menu  ">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Features
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Support
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Sign in
+                </a>
+              </li>
+            </ul>
+            <div>
+              <button class="btn btn_color" type="submit">
+                <span>Book A Demo</span>
+              </button>
+            </div>
+          </div>
+        </nav>
             <div className='news-10'>
                 <div className=''>
                 <h3>
@@ -23,11 +78,13 @@ function Ournews() {
                <h3> September 2020</h3>
                 </div>
                 <div className='col-md-3 date-10 '>
-              <p>  August 2020</p>
+              <p>  August 2020 <ArrowRightAltIcon/></p>
+              
+
                 </div>
-                <div className='col-md-2'>
-                August 2020
-                </div>
+        
+               
+               
             </div>
             <div className='line-10'>
             <hr/>

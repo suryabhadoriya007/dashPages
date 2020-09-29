@@ -3,7 +3,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 /* Our News starts */
 
-/* .news-10 h3{
+.btn_color {
+  background: linear-gradient(90.17deg, #5d80e2 0.17%, #73b6e5 99.89%);
+  box-shadow: 0px 20px 40px rgba(130, 100, 198, 0.2);
+  border-radius: 5px;
+  padding: 6px 30px !important;
+}
+.btn_color span {
+  line-height: 21px;
+  color: #ffffff;
+}
+.nav-link {
+  color: #000000!important;
+
+}
+.main_menu {
+  margin: auto;
+}
+.navbar a {
+  color: black;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+.navbar a:hover {
+  color: black;
+}
+
+
+
+
+.news-10{
+  margin-top:3%;
+}
+
+.news-10 h3{
   font-family: Montserrat;
   font-style: normal;
   font-weight: 900;
@@ -170,7 +204,7 @@ border: 1px solid black !important;
   text-decoration: none;
   color: white;
 }
- */
+
 
 
 /* Our News ends */
