@@ -17,13 +17,14 @@ function OurTeam() {
                </div>
                <div className='col-md-6 '>
                    <div className='row searchdah'>
-                  <div className='col-md-6 cardspace'>
-                  <div class="md-form ">
-                  <SearchIcon/>
-                  <label for="" className='searchic'>Search </label>
+                  <div className='col-md-6 '>
+                  <div className="md-form ">
+          <input className="form-control searcdd " type="text" placeholder="Search" aria-label="Search"/>
+        </div>
+                  
             
        
-        </div>
+        
                   </div>
                    </div>
                   
