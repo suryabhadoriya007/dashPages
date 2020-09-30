@@ -2,6 +2,14 @@ import React from 'react'
 import SearchIcon from '@material-ui/icons/Search';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Overview from './Overview';
+import Bar from './Bar';
+import Dogh from './Dogh';
+
+
+
+
+
 
 
 
@@ -9,7 +17,8 @@ function OurTeam() {
     return (
         <>
 
-       
+<div className="maindiv">
+<div className="navbar-custom">
        <div className='container-fluid topdash'>
            <div className='row leftdah'>
                <div className='col-md-3'>
@@ -50,8 +59,8 @@ function OurTeam() {
                    </div>
                </div>
            </div>
-
-
+</div>
+           </div>
        </div>
         
         <div className="left-side-menu">
@@ -122,32 +131,40 @@ function OurTeam() {
       </div>
         
       <div className="content-page">
-        <div className=' dashifymenu-10'>
-           <div className='row'>
-               <div className='col-md-1 '>
-               Overview 
-               </div>
-               <div className='col-md-1'>
-               Listing 
-               </div>
-               <div className='col-md-1'>
-               Analytics
-               </div>
-               <div className='col-md-2'>
-               Location Manager
-               </div>
-               <div className='col-md-2'>
-               Reviews Generations
-               </div>
-               <div className='col-md-2'>
-               Promotional Posts
-               </div>
-           </div>
+      <div className="container-fluid">
+      <div className=" dashifymenu-10">
+          <div className="row">
+            <div className="main_menu">
+              <ul>
+                <li>
+                  <a href="#">Overview</a>
+                </li>
+                <li>
+                  <a href="#">Listing</a>
+                </li>
+                <li>
+                  <a href="#">Analytics</a>
+                </li>
+                <li>
+                  <a href="#"> Location Manager</a>
+                </li>
+                <li>
+                  <a href="#">Reviews Generations</a>
+                </li>
+                <li>
+                  <a href="#">Promotional Posts</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
+        </div>
+    <Overview/>
+     
       </div>
 
         </>
     )
 }
 
-export default OurTeam
+export default OurTeam;
