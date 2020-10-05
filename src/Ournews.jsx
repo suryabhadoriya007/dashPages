@@ -21,7 +21,7 @@ function Ournews() {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav main_menu  ">
+            <ul class="navbar-nav main_menu mx-auto ">
               <li class="nav-item ">
                 <a class="nav-link" href="#">
                   Home

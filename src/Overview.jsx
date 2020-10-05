@@ -104,7 +104,7 @@ function Overview() {
   <div class=" col-md-6 ">
     <div class="card social-10 ">
     
-                    <img src={fb} />
+    <img src={fb} />
      
     
     

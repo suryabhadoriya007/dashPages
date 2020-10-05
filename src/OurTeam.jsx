@@ -1,170 +1,249 @@
 import React from 'react'
-import SearchIcon from '@material-ui/icons/Search';
-import NotificationsIcon from '@material-ui/icons/Notifications';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
-import Overview from './Overview';
-import Bar from './Bar';
-import Dogh from './Dogh';
-
-
-
-
-
-
-
 
 function OurTeam() {
     return (
         <>
-
-<div className="maindiv">
-<div className="navbar-custom">
-       <div className='container-fluid topdash'>
-           <div className='row leftdah'>
-               <div className='col-md-3'>
-               <img src={require("../src/images/LOGO 4.png")} alt="" /> 
-               </div>
-               <div className='col-md-6 '>
-                   <div className='row searchdah'>
-                  <div className='col-md-6 '>
-                  <div className="md-form ">
-          <input className="form-control searcdd " type="text" placeholder="Search" aria-label="Search"/>
-        </div>
-                  
+           <div className='container'>
+        <nav class="navbar navbar-expand-lg navbar-light  ">
+     
+          <a class="navbar-brand" href="#">
+            <img src={require("../src/images/LOGO 4.png")} alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav main_menu mx-auto ">
+              <li class="nav-item ">
+                <a class="nav-link" href="#">
+                  Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  About Us
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Features
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Pricing
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Support
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  Sign in
+                </a>
+              </li>
+            </ul>
+            <div>
+              <button class="btn btn_color" type="submit">
+                <span>Book A Demo</span>
+              </button>
+            </div>
+          </div>
+        </nav>
+        
+        <div className='teamsimg'>
+                
+                <h3>
+                Meet our team
+                </h3>
+                <h4>Star in intelligent search</h4>
+                <div className='row'>
+                    <div className='col-7'>
+                <p> Your customers are your most important source of feedback.
+                     Their ratings and reviews impact how search engines and other customers make
+                      decisions about your brand everyday. If you don’t pay attention to this important 
+                    source of customer feedback, you could be leaving revenue on the table. </p>
+                    </div>
+                    </div>
+            </div>
+         <div className='headteam '>
+             <h2>OUR TEAM</h2>
+         </div>
+         
             
-       
-        
-                  </div>
-                   </div>
-                  
-                       </div>
-             
-               <div className='col-md-3'>
-               <div className='row '>
-               <div className='col-md-5 namedash rightdah'>
-              <h3> Will Newman </h3>
-                   </div>
-                   <div className='col-md-2 '>
-                  <div className='row imgaligng'>
-                   <img src={require("../src/images/Ellipse 1.png")} alt="" /> 
-                   </div>
-                   </div>
-                   <div className='col-md-2 rightdah'>
-                   <NotificationsIcon/>
-                   </div>
-                   <div className='col-md-2 rightdah'>
-                   <MoreVertIcon/>
-                   </div>
-                   
-                   </div>
-               </div>
-           </div>
-</div>
-           </div>
-       </div>
-        
-        <div className="left-side-menu">
-        <div className="col-md-12 left_nav">
-          <div className="row left_content">
-            <div className="col-md-2  ">
-              <img src={require("../src/images/Color.png")} alt="" />
-            </div>
-            <div className="col-md-10 ">
-              <span>Dashboard</span>
-            </div>
+             <div className='row teamim mt-5'>
+              <div className='col-md-2 teimg'> 
+              <img src={require("../src/images/Rectangle 273.png")} alt="" /> </div>
+              <div className='col-md-2 teimg'><img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
+              <div className='col-md-2 teimg'><img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
+              <div className='col-md-2 teimg'> <img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
+              <div className='col-md-2 teimg'> <img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
           </div>
-          <div className="row left_content">
-            <div className="col-md-2  ">
-              <img src={require("../src/images/user.png")} alt="" />
-            </div>
-            <div className="col-md-10 ">
-              <span>User Profile</span>
-            </div>
+          <div className='row teamim mt-5'>
+              <div className='col-md-2 teimg'> 
+              <img src={require("../src/images/Rectangle 273.png")} alt="" /> </div>
+              <div className='col-md-2 teimg'><img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
+              <div className='col-md-2 teimg'><img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
+              <div className='col-md-2 teimg'> <img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
+              <div className='col-md-2 teimg'> <img src={require("../src/images/Rectangle 273.png")} alt="" /></div>
           </div>
-          <div className="row left_content">
-            <div className="col-md-2  ">
-              <img src={require("../src/images/linechartup.png")} alt="" />
-            </div>
-            <div className="col-md-10 ">
-              <span>Activity</span>
-            </div>
-          </div>
-          <div className="row left_content">
-            <div className="col-md-2  ">
-              <img src={require("../src/images/filefind.png")} alt="" />
-            </div>
-            <div className="col-md-10 ">
-              <span>Report</span>
-            </div>
-          </div>
-          <div className="row left_content">
-            <div className="col-md-2  ">
-              <img src={require("../src/images/uservoice.png")} alt="" />
-            </div>
-            <div className="col-md-10 ">
-              <span>Suport</span>
-            </div>
-          </div>
-          <div className="row left_content">
-            <div className="col-md-2  ">
-              <img src={require("../src/images/settingsfuture.png")} alt="" />
-            </div>
-            <div className="col-md-10 ">
-              <span>Settings</span>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-10 invite_text">
-          <p>Invite your team and start collaborating</p>
+          
+          
+         
 
-          <div className="invite_box">
-            <div className="row dash_fry ">
-              <div className="col-md-3 ">
-                <img src={require("../src/images/logo_4.png")} alt="" />
+
+          <div className='row text-center mt-5'>
+              <div className='col-md-6 lastcardteam'>
+              <img src={require("../src/images/Rectangle 273.png")} alt="" />
+              <h3 className='mt-2'>Lorem ipsum dolor</h3>
+              <p> Your customers are your most important source of feedback</p>
+              <button type="button" class="btn btn-ourtem ">Learn more </button>
               </div>
-              <div className="col-md-9 invity ">
-                <p>Invite to Dashify</p>
+              <div className='col-md-6 lastcardteam'>
+              <img src={require("../src/images/Rectangle 273.png")} alt="" />
+              <h3 className='mt-2'>Lorem ipsum dolor</h3>
+              <p> Your customers are your most important source of feedback</p>
+              <button type="button" class="btn btn-ourtem ">Learn more </button>
               </div>
-            </div>
+           
           </div>
-        </div>
-      </div>
         
-      <div className="content-page">
-      <div className="container-fluid">
-      <div className=" dashifymenu-10">
-          <div className="row">
-            <div className="main_menu">
-              <ul>
+
+
+
+
+        </div>
+       
+
+       
+           
+          
+
+
+      
+
+
+     
+
+
+
+
+
+
+        <footer class="foot_color">
+          <div class="row">
+            <div class=" col-md-3 imgalign">
+            <img src={require("../src/images/dasify.png")} alt="" /> 
+            </div>
+            <div class="col-md-3 about_us">
+              <ul class="list-unstyled text-small ">
                 <li>
-                  <a href="#">Overview</a>
+                  <a class="text-muted" href="#">
+                    About us
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Listing</a>
+                  <a class="text-muted" href="#">
+                    How we work
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Analytics</a>
+                  <a class="text-muted" href="#">
+                    Our team
+                  </a>
                 </li>
                 <li>
-                  <a href="#"> Location Manager</a>
+                  <a class="text-muted" href="#">
+                    Our customers{" "}
+                  </a>
                 </li>
                 <li>
-                  <a href="#">Reviews Generations</a>
-                </li>
-                <li>
-                  <a href="#">Promotional Posts</a>
+                  <a class="text-muted" href="#">
+                    Blog
+                  </a>
                 </li>
               </ul>
             </div>
+            <div class="col-md-3  about_us">
+              <ul class="list-unstyled text-small">
+                <li>
+                  <a class="text-muted" href="#">
+                    Our App
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Listings Management
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Review Management
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Analytics
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Сomments and reviews
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Features
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3  about_us">
+              <ul class="list-unstyled text-small">
+                <li>
+                  <a class="text-muted" href="#">
+                    Pricing
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Support
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Log in
+                  </a>
+                </li>
+                <li>
+                  <a class="text-muted" href="#">
+                    Contact us
+                  </a>
+                </li>
+                <button type="button" class="btn btn-demo ">
+                  <a href="">Book A Demo</a>
+                </button>
+              </ul>
+            </div>
           </div>
-        </div>
-        </div>
-    <Overview/>
-     
+        </footer>
+
+ <div className="all_right">
+        <p>©Dashify | All Rights Reserved</p>
       </div>
 
         </>
     )
 }
 
-export default OurTeam;
+export default OurTeam
